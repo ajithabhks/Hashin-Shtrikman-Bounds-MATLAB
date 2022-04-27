@@ -3,7 +3,7 @@ clear all
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Fluid volume percentage calculation
 % Ajithabh K. S.
-% ajithabhks@gmail.com
+% ajithabhks-at-gmail.com
 %%
 melt = 0:0.0001:0.2;
 sigm = 1/10000; % Conductivity of matrix
