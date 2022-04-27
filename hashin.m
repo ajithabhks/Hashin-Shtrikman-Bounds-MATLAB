@@ -32,4 +32,4 @@ ylabel('Resistivity')
 hold off
 axis square
 %%
-print('-f','-dpdf','-r600','-fillpage','-painters','hashin.pdf')
+print('-f','-dpdf','-r300','-fillpage','-painters','hashin.pdf')
