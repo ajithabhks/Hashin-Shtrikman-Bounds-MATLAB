@@ -20,9 +20,10 @@ semilogy(melt,rHSL,'r')
 hold on
 xt = xticks * 100;
 xticklabels(xt)
-y = 5;
+y = 5; % Lower limit of resistivity
 line([0,0.2],[y,y])
-z = 10;
+z = 10; % Upper limit of resistivity
+line([0,0.2],[z,z])
 xlabel('Fluid Fraction (vol%)')
 ylabel('Resistivity')
 % ylim([1 5000])
